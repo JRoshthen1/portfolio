@@ -1,0 +1,30 @@
+/* ========================================================================== */
+/* CSS FILE FOR ALL REQUIRED FONTS */
+/* ========================================================================== */
+
+
+/* CARTER ONE for H1 */
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+/* USAGE: 
+font-family: 'Carter One', cursive;
+*/
+
+
+
+/* TIMMANA for H2 and H3 */
+
+@import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
+/* USAGE: 
+font-family: 'Timmana', sans-serif;
+*/
+
+
+
+/* COMFORTAA and HABIBI for body */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Habibi&display=swap');
+/* USAGE: 
+font-family: 'Comfortaa', cursive;
+font-family: 'Habibi', serif;
+*/
