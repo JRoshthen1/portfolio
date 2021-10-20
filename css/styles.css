@@ -70,9 +70,9 @@ h3 {
 
 .pin {
     position: fixed;
-    bottom: 5%;
+    bottom: 3%;
     box-sizing: border-box;
-    background: var(--portland-orange);
+    background: var(--persian-green );
     border-radius: 45px;
     box-shadow: 0 1rem 5rem -2rem rgba(black, 0.5);
     transition: transform 100ms linear;
@@ -80,7 +80,8 @@ h3 {
 }
 
 .pin a {
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 3vmin;
     text-decoration: none;
     line-height: 1.25;
@@ -91,6 +92,9 @@ h3 {
     transform: translatey(-50%);
 }
 
+.pin a:hover{
+    color: var(--jet);
+}
 
 .small-container {
     width: 300px;
@@ -130,8 +134,8 @@ canvas#canvas {
     height: 100%;
     transform: rotate(-50deg) scale(2) translateY(-50%);
     --gradient-color-1: #F0C808;
-    --gradient-color-2: #E2C744;
-    --gradient-color-3: #f5e188;
+    --gradient-color-2: #ffc400;
+    --gradient-color-3: #fff2bb;
     --gradient-color-4: #F0C80D;
     --gradient-speed: 0.000014;
 }
@@ -152,7 +156,7 @@ canvas#canvas {
 
 
 
-/* Extra large devices (large desktops, 1200px and up) */
+/* Large devices (Laptops, 992px and up) */
 
 @media screen and (min-width: 992px) {
 
@@ -177,6 +181,8 @@ canvas#canvas {
     }
 }
 
+
+/* Extra large devices (desktops, 1200px and up) */
 @media screen and (min-width: 1200px){
     .small-container{
         padding-right: 150px;
