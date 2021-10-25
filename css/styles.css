@@ -25,6 +25,7 @@
 
 }
 
+/* Intro */
 .intro-container {
     display: flex;
     flex-direction: column;
@@ -62,6 +63,8 @@ h3 {
 }
 
 
+/* Navigaton Bar */
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -72,7 +75,7 @@ h3 {
     position: fixed;
     bottom: 3%;
     box-sizing: border-box;
-    background: var(--persian-green );
+    background: var(--persian-green);
     border-radius: 45px;
     box-shadow: 0 1rem 5rem -2rem rgba(black, 0.5);
     transition: transform 100ms linear;
@@ -92,15 +95,16 @@ h3 {
     transform: translatey(-50%);
 }
 
-.pin a:hover{
+.pin a:hover {
     color: var(--jet);
 }
 
+/* About me */
 .small-container {
     width: 300px;
     padding: 30px;
     background-color: white;
-    border-radius: 45px 0 0 0 ;
+    border-radius: 45px 0 0 0;
     color: var(--jet);
 }
 
@@ -110,8 +114,68 @@ h3 {
 
 }
 
-.plant-gif{
+.plant-gif {
     width: 150px;
+}
+
+
+
+/* Technologies scroller */
+.scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+
+.scrolling-wrapper,
+.scrolling-wrapper-flexbox {
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper,
+.scrolling-wrapper-flexbox::-webkit-scrollbar {
+    display: none;
+}
+
+/* Technologies cards */
+.card {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border: solid 1px var(--persian-green);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+    font-family: 'Habibi', serif;
+    font-size: 15px;
+}
+
+.img-container {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.card img {
+    height: 100px;
+}
+
+.card h3 {
+    font-size: 18px;
+}
+
+.card p {
+    margin: 5px;
+    line-height: 1.3;
 }
 
 
@@ -176,17 +240,15 @@ canvas#canvas {
         margin-top: 100px;
     }
 
-    .plant-gif{
+    .plant-gif {
         width: 300px;
     }
 }
 
 
 /* Extra large devices (desktops, 1200px and up) */
-@media screen and (min-width: 1200px){
-    .small-container{
+@media screen and (min-width: 1200px) {
+    .small-container {
         padding-right: 150px;
     }
 }
-
-
