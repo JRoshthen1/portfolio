@@ -219,6 +219,24 @@ h3 {
   }
 
 
+.projects-heading{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    width: 300px;
+}
+
+.rotate-grow a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--jet);
+    text-decoration: none;
+}
+
+.rotate-grow a h3{
+   margin-top: -10px;
+   line-height: 1.2;
+}
   
 
 
@@ -276,6 +294,11 @@ h3 {
         justify-content: center;
         align-items: center;
     }
+
+    .rotate-grow a h3{
+        margin-top: -20px;
+     }
+       
 
 }
 
