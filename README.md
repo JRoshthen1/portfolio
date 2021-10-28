@@ -1,4 +1,4 @@
-# Portfolio-2
+# Portfolio
 
 Created by Martin Jaros for self advertising
 
