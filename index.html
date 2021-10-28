@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -88,6 +89,12 @@
         </div>
 
         <div class="card">
+          <div class="img-container"><img src="/img/sass.png" alt="Sass Icon"></div>
+          <h3>-Intermediate</h3>
+          <p>It was not so long ago that I used Sass for the first time but I got the hang of it pretty quickly. I was making custom styles on our WorkHub application which was using Bootstrap.</p>
+        </div>
+
+        <div class="card">
           <div class="img-container"><img src="/img/figmaxd.png" alt="Figma and Adobe Xd icon "></div>
           <h3>-Intermediate</h3>
           <p>Mockups and wireframes seemed like a waste of time at first, until I started prototyping. Figma and Xd are
@@ -101,25 +108,12 @@
             software. Apart from Linux, I would never thought that open source software can be so versatile.</p>
         </div>
 
-        <div class="card">
-          <div class="img-container"><img src="/img/sass.png" alt="Sass Icon"></div>
-          <h3>-Intermediate</h3>
-          <p>It was not so long ago that I used Sass for the first time but I got the hang of it pretty quickly. I was making custom styles on our WorkHub application which was using Bootstrap.</p>
-        </div>
-
-
-
       </div>
     </section>
 
 
-
-
-
-
-
     <!-- Projects -->
-    <div class="projects-wraper">
+    <div id="work" class="projects-wraper">
 
 
     <div class="split-container">
@@ -146,10 +140,7 @@
           </div>
         </div>
 
-
     </div>
-
-
     </div>
 
     <!-- Free Time -->
@@ -158,17 +149,11 @@
 
     </section>
 
-    <!-- Footer -->
-    <footer>
-      <a href="https://github.com/JRoshthen1"></a>
-      <a href="https://www.linkedin.com/in/martin-pavel-jaros-a879b51ba/"></a>
-      <a href=""></a>
-    </footer>
-
+    
     <!-- Navigation bar -->
     <div class="navbar">
       <div class="pin">
-        <a href="">My work</a>
+        <a href="#work">My work</a>
         <a href="">Curriculum</a>
         <a href="">Contact</a>
       </div>
@@ -176,6 +161,30 @@
 
 
   </div>
+
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+    <div class="some">
+      <a href="https://github.com/JRoshthen1"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/martin-pavel-jaros-a879b51ba/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.reddit.com/user/JRosh_1"><i class="fa-brands fa-reddit"></i></a>
+      <a href="https://www.facebook.com/martinjarosnofb/"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+
+
+    <div class="footer-nav">
+      <a href="">Contact me</a>
+      <a href="#work">My work</a>
+      <a href="">My resumé</a>
+    </div>
+
+  </div>
+
+    <p class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Martin Pavel Jaros | All Rights Reserved</p>
+  </footer>
 
   <!-- Importing scripts -->
   <script src="https://kit.fontawesome.com/fe1015e1b0.js" crossorigin="anonymous"></script>

@@ -1,6 +1,3 @@
-var gradient = new Gradient();
-gradient.initGradient("#canvas");
-
 // Navigation Bar
 //config vars
 const lagAmount = 50;
@@ -26,7 +23,3 @@ const updatePinPosition = (time) => {
 	requestAnimationFrame(updatePinPosition);
 }
 requestAnimationFrame(updatePinPosition);
-
-
-
-//

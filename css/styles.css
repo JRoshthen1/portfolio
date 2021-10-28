@@ -14,6 +14,7 @@ html,body {
     margin:0;
     padding:0;
     overflow-x:hidden;
+    scroll-behavior: smooth;
 }
 
 #wrapper {
@@ -161,8 +162,9 @@ h3 {
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-right: 15px;
-    font-family: 'Habibi', serif;
-    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+
 }
 
 .img-container {
@@ -183,7 +185,7 @@ h3 {
 
 .card p {
     margin: 10px;
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 /* Projects cards */
@@ -220,7 +222,7 @@ h3 {
 
 
 .projects-heading{
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Habibi', serif;
     text-align: center;
     width: 300px;
 }
@@ -234,11 +236,80 @@ h3 {
 }
 
 .rotate-grow a h3{
-   margin-top: -10px;
-   line-height: 1.2;
+   margin-top: -15px;
+   line-height: 1.15;
+}
+
+.rotate-grow :hover{
+    color: var(--portland-orange);
+ }
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    background-image: url(/img/layered-peakspng.png);
+    background-size: 100% 100%;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-container div{
+    margin: 20px;
+}
+
+.some{
+    display: flex;
+    flex-direction: row;
+}
+
+.some a{
+    margin: 6px;
+    font-size: 30px;
 }
   
+  
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Habibi', serif;
+    text-align: center;
+}
+.footer-nav a{
+    text-decoration: none;
+    color: var(--jet);
+    margin: 2px;
+    font-size: 17px;
+}
 
+.footer-nav a:hover{
+    text-decoration: underline;
+    color: var(--portland-orange);
+}
+
+.copyright{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    line-height: 1.25;
+    color: white;
+}
+
+
+/* Icons */
+.fa-github{color: #6e5494;}
+.fa-linkedin{color: #0e76a8;}
+.fa-reddit{color: #FF5700;}
+.fa-facebook{color: #3b5998;}
+
+.fa-brands:hover{color: var(--persian-green);}
 
 /* Medium devices (tablets, 768px and up) */
 
@@ -252,6 +323,11 @@ h3 {
     .img-frame{
         width: 400px;
         margin: 50px;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: row;
     }
 
 
