@@ -1,0 +1,188 @@
+:root {
+    /* Color Board HEX */
+    --jet: #323031ff;
+    --portland-orange: #f46036ff;
+    --jonquil: #f0c808ff;
+    --persian-green: #1b998bff;
+    --iceberg: #7aa9d5;
+}
+
+
+
+
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Carter One', cursive;
+    font-size: 52px;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Timmana', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Timmana', sans-serif;
+    font-size: 24px;
+}
+
+h4{
+    font-family: 'Comfortaa', cursive;
+    line-height: 1.4;
+    width: 70%;
+}
+
+li {
+    font-family: 'Comfortaa', cursive;
+    margin: 8px;
+}
+
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description p{
+    font-family: 'Habibi', sans-serif;
+    margin: 20px;
+    width: 300px;
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.technologies {
+    margin: 20px;
+}
+
+.screenshots {
+    margin: 20px;
+}
+
+/* Main Carousel */
+.carousel-wrapper {
+    height: 600px;
+    position: relative;
+    width: 280px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.arrow {
+    border: solid var(--jet);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.arrow-prev {
+    left: -30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+}
+
+.arrow-next {
+    right: -30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+    background: url(/img/workhubimg/start.png);
+    background-size: 280px 600px;
+}
+
+.item-2 {
+    background: url(/img/workhubimg/chat.png);
+    background-size: 280px 600px;
+}
+
+.item-3 {
+    background: url(/img/workhubimg/swiping.png);
+    background-size: 280px 600px;
+}
+
+*:target~.item-1 {
+    opacity: 0;
+}
+
+#item-1:target~.item-1 {
+    opacity: 1;
+}
+
+#item-2:target~.item-2,
+#item-3:target~.item-3 {
+    z-index: 3;
+    opacity: 1;
+}
+
+
+/*  */
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+
+    #wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+/* Large devices (Laptops, 992px and up) */
+
+@media screen and (min-width: 992px) {
+
+    #wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description{
+        margin-top: -150px;
+        align-items: flex-start;
+        padding-left: 80px;
+    }
+    .screenshots{
+        padding-right: 80px;
+    }
+}
