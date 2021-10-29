@@ -105,6 +105,9 @@ h3 {
     color: var(--jet);
 }
 
+.SendEmail{
+    cursor: pointer;
+}
 /* About me */
 .small-container {
     width: 300px;
@@ -299,7 +302,7 @@ footer{
     text-align: center;
     font-family: 'Comfortaa', cursive;
     line-height: 1.25;
-    color: white;
+    color: black;
 }
 
 

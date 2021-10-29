@@ -132,6 +132,7 @@ footer{
     flex-direction: column;
     background-image: url(/img/layered-peakspng.png);
     background-size: 100% 100%;
+    margin-top: 50px;
 }
 
 .footer-container{
@@ -178,9 +179,12 @@ footer{
     text-align: center;
     font-family: 'Comfortaa', cursive;
     line-height: 1.25;
-    color: white;
+    color: black;
 }
 
+.SendEmail{
+    cursor: pointer;
+}
 
 /* Icons */
 .fa-github{color: #6e5494;}
