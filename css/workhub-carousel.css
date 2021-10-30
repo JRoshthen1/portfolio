@@ -40,17 +40,17 @@
 .item-1 {
     z-index: 2;
     opacity: 1;
-    background: url(/img/workhubimg/start.png);
+    background: url(img/workhubimg/start.png);
     background-size: 280px 600px;
 }
 
 .item-2 {
-    background: url(/img/workhubimg/chat.png);
+    background: url(img/workhubimg/chat.png);
     background-size: 280px 600px;
 }
 
 .item-3 {
-    background: url(/img/workhubimg/swiping.png);
+    background: url(img/workhubimg/swiping.png);
     background-size: 280px 600px;
 }
 
