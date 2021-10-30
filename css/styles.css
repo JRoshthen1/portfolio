@@ -214,7 +214,7 @@ h3 {
 .split-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
@@ -346,6 +346,12 @@ footer{
         flex-direction: row;
     }
 
+    .split-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 
 }
 
@@ -384,7 +390,7 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .rotate-grow a h3{
@@ -401,10 +407,4 @@ footer{
         padding-right: 150px;
     }
 
-    .split-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
 }
