@@ -167,6 +167,7 @@ h3 {
     margin-right: 15px;
     font-family: 'Comfortaa', cursive;
     font-size: 14px;
+    color: var(--jet);
 
 }
 
@@ -191,7 +192,19 @@ h3 {
     line-height: 1.5;
 }
 
+.technologies-heading{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: var(--jet);
+}
+
 /* Projects cards */
+
+.work-heading{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: var(--jet);
+}
 
 .img-frame{
     width: 320px;
@@ -225,7 +238,7 @@ h3 {
 
 
 .projects-heading{
-    font-family: 'Habibi', serif;
+    font-family: 'Timmana', sans-serif;
     text-align: center;
     width: 300px;
 }
