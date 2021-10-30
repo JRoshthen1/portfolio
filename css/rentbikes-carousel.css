@@ -40,17 +40,17 @@
 .item-1 {
     z-index: 2;
     opacity: 1;
-    background: url(img/rentbikesimg/icons.png);
+    background: url(../img/rentbikesimg/icons.png);
     background-size: 280px 550px;
 }
 
 .item-2 {
-    background: url(img/rentbikesimg/menu.png);
+    background: url(../img/rentbikesimg/menu.png);
     background-size: 280px 550px;
 }
 
 .item-3 {
-    background: url(img/rentbikesimg/routes.png);
+    background: url(../img/rentbikesimg/routes.png);
     background-size: 280px 550px;
 }
 
