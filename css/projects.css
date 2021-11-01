@@ -115,16 +115,35 @@ section p a:hover{
 }
 
 .website-button{
-    background-color: var(--persian-green);
     padding: 9px;
     color: white;
     text-decoration: none;
     font-family: 'Comfortaa', cursive;
     border-radius: 10px;
+    margin-right: 5px;
+    background-color: var(--persian-green);
+}
+.git-button{
+    padding: 9px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 10px;
+    background-color: #6e5494;
 }
 
 .website-button:hover{
     background-color: var(--portland-orange);
+}
+
+.git-button:hover{
+    background-color: var(--portland-orange);
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 /* Footer */
 
@@ -233,7 +252,7 @@ footer{
     }
 
     .description{
-        margin-top: -150px;
+        margin-top: -100px;
         align-items: flex-start;
         padding-left: 80px;
     }
