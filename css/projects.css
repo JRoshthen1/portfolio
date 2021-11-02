@@ -54,6 +54,7 @@ li {
     font-size: 20px;
     border-radius: 45px;
     color: white;
+    z-index: 99;
 }
 .home-button:hover{
     background-color: var(--portland-orange);

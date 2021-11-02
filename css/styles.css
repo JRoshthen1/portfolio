@@ -260,6 +260,43 @@ h3 {
     color: var(--portland-orange);
  }
 
+/* Free time */
+
+.free-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.free-time li{
+    font-family: 'Comfortaa', cursive;
+    margin: 3px;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.free-time p{
+    font-family: 'Comfortaa', cursive;
+    margin: 10px;
+    font-size: 14px;
+    line-height: 1.25;
+}
+
+
+.free-time-list{
+    width: 300px;
+}
+
+.soft-skills-list{
+    width: 300px;
+}
+.ss-mobile{
+    padding-top: 40px;
+}
+
 /* Footer */
 
 footer{
@@ -397,6 +434,21 @@ footer{
         margin-top: -20px;
      }
        
+    .free-time{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    .free-time-list{
+        width: 400px;
+    }
+    
+    .soft-skills-list{
+        width: 400px;
+    }
 
 }
 
