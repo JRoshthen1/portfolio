@@ -11,9 +11,9 @@
 
 /* Mobile devices */
 html,body {
-    margin:0;
-    padding:0;
-    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
@@ -273,7 +273,7 @@ h3 {
 
 .free-time li{
     font-family: 'Comfortaa', cursive;
-    margin: 3px;
+    margin: 5px;
     font-size: 18px;
     text-decoration: underline;
 }
