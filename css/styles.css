@@ -91,7 +91,7 @@ h3 {
 .pin a {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 3vmin;
+    font-size: 16px;
     text-decoration: none;
     line-height: 1.25;
     font-family: 'Comfortaa', cursive;
@@ -395,6 +395,10 @@ footer{
         justify-content: center;
     }
 
+    .pin a {
+        font-size: 18px;
+    }
+
 
 }
 
@@ -459,8 +463,11 @@ footer{
     .ss-mobile{
         padding-top: 0px;
     }
-}
 
+    .pin a {
+        font-size: 20px;
+}
+}
 
 /* Extra large devices (desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
