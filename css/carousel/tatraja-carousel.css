@@ -1,6 +1,6 @@
 /* Main Carousel */
 .carousel-wrapper {
-    height: 550px;
+    height: 600px;
     position: relative;
     width: 280px;
     margin: 0 auto;
@@ -40,18 +40,18 @@
 .item-1 {
     z-index: 2;
     opacity: 1;
-    background: url(../img/rentbikesimg/icons.png);
-    background-size: 280px 550px;
+    background: url(../../img/workhubimg/start.png);
+    background-size: 280px 600px;
 }
 
 .item-2 {
-    background: url(../img/rentbikesimg/menu.png);
-    background-size: 280px 550px;
+    background: url(../../img/workhubimg/chat.png);
+    background-size: 280px 600px;
 }
 
 .item-3 {
-    background: url(../img/rentbikesimg/routes.png);
-    background-size: 280px 550px;
+    background: url(../../img/workhubimg/swiping.png);
+    background-size: 280px 600px;
 }
 
 *:target~.item-1 {

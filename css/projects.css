@@ -66,8 +66,8 @@ li {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
 }
 
 .description{
@@ -85,6 +85,7 @@ main {
 
 .technologies {
     margin: 20px;
+    line-height: 1.35;
 }
 
 .screenshots {
@@ -100,7 +101,7 @@ section{
 }
 section p{
     font-family: 'Habibi', sans-serif;
-    line-height: 1.25;
+    line-height: 1.35;
 }
 section p a{
     color: var(--persian-green);
@@ -248,8 +249,9 @@ footer{
     main {
         display: flex;
         flex-direction: row;
-        justify-content: center;
         align-items: center;
+        justify-content: space-around;
+
     }
 
     .description{
