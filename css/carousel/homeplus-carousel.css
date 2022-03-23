@@ -1,0 +1,69 @@
+/* Main Carousel */
+.carousel-wrapper {
+    height: 600px;
+    position: relative;
+    width: 280px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.arrow {
+    border: solid var(--jet);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.arrow-prev {
+    left: -30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+}
+
+.arrow-next {
+    right: -30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+    background: url(../../img/homeplusimg/1.png);
+    background-size: 280px 600px;
+}
+
+.item-2 {
+    background: url(../../img/homeplusimg/2.png);
+    background-size: 280px 600px;
+}
+
+.item-3 {
+    background: url(../../img/homeplusimg/3.png);
+    background-size: 280px 600px;
+}
+
+*:target~.item-1 {
+    opacity: 0;
+}
+
+#item-1:target~.item-1 {
+    opacity: 1;
+}
+
+#item-2:target~.item-2,
+#item-3:target~.item-3 {
+    z-index: 3;
+    opacity: 1;
+}
