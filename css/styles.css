@@ -124,6 +124,9 @@ h3 {
     font-family: 'Comfortaa', cursive;
     line-height: 1.35;
 }
+.small-container-right {
+    margin-right: 20px;
+}
 .small-container li{
     margin-top: 5px;
 }
@@ -500,6 +503,9 @@ footer {
 @media screen and (min-width: 1200px) {
     .small-container {
         padding-right: 150px;
+    }
+    .small-container-right {
+        padding-left: 150px;
     }
 
 }
