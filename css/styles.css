@@ -126,6 +126,12 @@ h3 {
 }
 .small-container-right {
     margin-right: 20px;
+    width: 350px;
+    min-width: 300;
+    padding: 30px;
+    color: var(--jet);
+    font-family: 'Comfortaa', cursive;
+    line-height: 1.35;
 }
 .small-container li{
     margin-top: 5px;
